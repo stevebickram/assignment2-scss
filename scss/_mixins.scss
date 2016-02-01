@@ -1,0 +1,9 @@
+@mixin button($primary, $secondary){
+	text-decoration: $primary;
+	width: 5em;
+	position: relative;
+	left: 5em;
+	font-size: 500%;
+	top: 3em;
+	color: $secondary;
+}
